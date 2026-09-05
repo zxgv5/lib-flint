@@ -129,6 +129,7 @@ void aprcl_config_gauss_clear(aprcl_config conf);
 /* Jacobi test configuration */
 ulong aprcl_R_value(const fmpz_t n);
 void aprcl_config_jacobi_init(aprcl_config conf, const fmpz_t n);
+void aprcl_config_jacobi_init_R(aprcl_config conf, const fmpz_t n, ulong R);
 void aprcl_config_jacobi_clear(aprcl_config conf);
 
 /*  Gauss sums primality test */

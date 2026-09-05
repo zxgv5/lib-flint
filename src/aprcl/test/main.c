@@ -15,6 +15,7 @@
 #include "t-config_jacobi.c"
 #include "t-f_table.c"
 #include "t-is_prime.c"
+#include "t-is_prime_final_division.c"
 #include "t-is_prime_gauss.c"
 #include "t-is_prime_jacobi.c"
 #include "t-unity_zp_add.c"
@@ -47,6 +48,7 @@ test_struct tests[] =
     TEST_FUNCTION(aprcl_config_jacobi),
     TEST_FUNCTION(aprcl_f_table),
     TEST_FUNCTION(aprcl_is_prime),
+    TEST_FUNCTION(aprcl_is_prime_final_division),
     TEST_FUNCTION(aprcl_is_prime_gauss),
     TEST_FUNCTION(aprcl_is_prime_jacobi),
     TEST_FUNCTION(aprcl_unity_zp_add),
